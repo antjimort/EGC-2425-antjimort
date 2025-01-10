@@ -20,6 +20,7 @@ services:
 
   db:
     container_name: mariadb_container
+    image: mariadb:11.2
     env_file:
       - ../.env
     build:
